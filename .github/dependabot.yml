@@ -1,10 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "bundler"
-    directories:
-      - "/"
-      - "/dependabot-investigation"
-      - "/dependabot-investigation/dependabot-investigation"
+    directory: "/dependabot-investigation"
     schedule:
       interval: "daily"
     commit-message:

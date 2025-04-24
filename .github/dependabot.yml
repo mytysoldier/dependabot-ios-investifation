@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "bundler"
     directory: "/dependabot-investigation"
     schedule:
-      interval: "hourly"
+      interval: "daily"
     commit-message:
       prefix: "deps"
     ignore:

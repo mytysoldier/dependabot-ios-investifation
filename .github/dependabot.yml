@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/dependabot-investigation"
+    schedule:
+      interval: "hourly"
+    commit-message:
+      prefix: "deps"
+    ignore:
+      - dependency-name: "bundler"
+        versions: ["< 2.0"]
